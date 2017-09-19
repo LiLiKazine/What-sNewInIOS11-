@@ -3,10 +3,10 @@
 ### 超视网膜屏
 + 垂直显示时，iPhone X 的宽度与 4.7 寸的 iPhone 6，iPhone7，iPhone 8 一样。但是长度要多 145pt，因此在垂直空间上多出了大概 20% 的空间。
 
-<center class="OV_Screen_Size">
+<div class="OV_Screen_Size">
     <img src="https://developer.apple.com/ios/human-interface-guidelines/images/OV_Screen_Size_47.svg" width = "40%"/>
     <img src="https://developer.apple.com/ios/human-interface-guidelines/images/OV_Screen_Size_iPhoneX.svg" width = "40%"/>
-</center>
+</div>
 
 
 | Portrait dimensions | Landscape dimensions |
@@ -19,39 +19,36 @@
 
 + 布局时要确保填充整个屏幕且不被圆角，“刘海” 或下方的 Home 指示条遮蔽。
 
-<center class="OV_Screen">
+<div class="OV_Screen">
     <img src="https://developer.apple.com/ios/human-interface-guidelines/images/OV_Fullscreen.svg" width = "40%"/>
     <img src="https://developer.apple.com/ios/human-interface-guidelines/images/OV_Clipping.png" width = "40%"/>
-</center>
+</div>
 
 + 使用标准库中UI控件 *(eg: navigation bars, tables, collections)* 会自动适应新特性
 + 使用 “自动布局” 并且遵循安全区域和外边距标准，进行自定义布局也不会很难
 + 可以使用 Xcode 中的模拟器预览 app，检测布局问题，但是某些特性，比如色彩显示范围，最好使用真机检测。
 + 为了保证提供全面屏体验，确保背景要延伸到边缘。类似于 ‘table’ ，  ‘collection’ 在垂直滚动布局下，会延续到屏幕的最底端（覆盖 Home 指示条）
 
-<center class="OV_LayoutGuides">
+<div class="OV_LayoutGuides">
     <img src="https://developer.apple.com/ios/human-interface-guidelines/images/OV_LayoutGuides_Portrait.svg" width = "40%"/>
     <img src="https://developer.apple.com/ios/human-interface-guidelines/images/OV_LayoutGuides_Landscape.svg" width = "40%"/>
-</center>
+</div>
 
 + 通常，内容应放置在正中间并对称才能在水平和垂直上看上去美观且不被圆角或者 “刘海” 挤压变形或被 Home 指示条遮蔽。最好使用系统提供的标准库中的UI组件以及自动布局对界面进行限制。所有的 app 都应遵循 UIKit 中定义的安全区域和外边距的限制，这样才能确保界面正确的显示。安全区域可以防止内容和状态栏、导航栏、工具栏、标签栏冲突
 + 注意状态栏的高度，在 iPhone X 上，状态栏要比在其它机型上高，而且状态栏不再因为某些后台任务 *(eg: voice recording, location tracking)* 而改变高度。
 + 如果 app 需要隐藏状态栏，在 iPhone X 需要再三思考。iPhone X 提供了比 4.7 寸机型更多的垂直空间，而且状态栏占据的那片区域 app 很难完美适配，而且状态栏也会提供一些很使用的信息，只有在需要展示其它附加信息时在应该隐藏状态栏。
 
-<center class="OV_47">
+<div class="OV_47">
     <img src="https://developer.apple.com/ios/human-interface-guidelines/images/OV_47_Display.svg" width = "30%" alt="Full-screen 4.7 device image"/>
     <img src="https://developer.apple.com/ios/human-interface-guidelines/images/OV_47_Cropped.svg" width = "30%" alt="Cropping on iPhone X"/>
     <img src="https://developer.apple.com/ios/human-interface-guidelines/images/OV_47_LetterBox.svg" width = "30%" alt="Letterboxing on iPhone X"/>
-</center>
-<br/>
-<center class="OV_iPhoneX">
-    <img src="https://developer.apple.com/ios/human-interface-guidelines/images/OV_iPhoneX_Display.svg" width = "30%"
-    alt = "Full-screen iPhone X image"/>
-    <img src="https://developer.apple.com/ios/human-interface-guidelines/images/OV_iPhoneX_Cropped.svg" width = "30%"
-    alt = "Cropping on a 4.7 device"/>
-    <img src="https://developer.apple.com/ios/human-interface-guidelines/images/OV_iPhoneX_PillarBox.svg" width = "30%"
-    alt = "Pillarboxing on a 4.7 device"/>
-</center>
+</div>
+   
+<div class="OV_iPhoneX">
+    <img src="https://developer.apple.com/ios/human-interface-guidelines/images/OV_iPhoneX_Display.svg" width = "30%" alt = "Full-screen iPhone X image"/>
+    <img src="https://developer.apple.com/ios/human-interface-guidelines/images/OV_iPhoneX_Cropped.svg" width = "30%" alt = "Cropping on a 4.7 device"/>
+    <img src="https://developer.apple.com/ios/human-interface-guidelines/images/OV_iPhoneX_PillarBox.svg" width = "30%" alt = "Pillarboxing on a 4.7 device"/>
+</div>
 
 + 注意 iPhone X 与 4.7 寸机型有不同的宽高比，重用时要注意重要信息是否被裁剪掉了。
 + 避免在最底部和角落放置交互控件，底部上滑手势用作用来显示 Home 或者切换应用，这些手势有可能会取消你的在这些区域的自定义手势，而角落区域难以触及，在这里使用手势不利于用户体验。

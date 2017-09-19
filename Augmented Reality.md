@@ -64,11 +64,11 @@ Apps can use Apple's augmented reality (AR) technology, ARKit, to deliver immers
 + **总之，保持交互简洁** Touch gestures are inherently two-dimensional, but an AR experience involves the three dimensions of the real world. Consider the following approaches to simplifying user interactions with virtual objects.
 <table>
 <tr style="width:100%;border-style: none;margin: 1px;padding: 1px">
-<td style="width:33%;border-style: none;"><div>
+<td style="width:45%;border-style: none;"><div>
       <img src="https://developer.apple.com/ios/human-interface-guidelines/images/ARKit_10.svg" />
       <p style = "text-align:center">Limit movement to the two-dimensional surface on which the object rests.</p>
     </div></td>
-<td style="width:33%;border-style: none;"> <div>
+<td style="width:45%;border-style: none;"> <div>
       <img src="https://developer.apple.com/ios/human-interface-guidelines/images/ARKit_09.svg" />
       <p style = "text-align:center">Limit object rotation to a single axis.</p>
     </div></td>
@@ -116,11 +116,11 @@ Apps can display an AR glyph in controls that launch ARKit-based experiences. Yo
 
 <table>
 <tr style="width:100%;border-style: none;margin: 1px;padding: 1px">
-<td style="width:33%;border-style: none;"><div>
+<td style="width:45%;border-style: none;"><div>
       <img src="https://developer.apple.com/ios/human-interface-guidelines/images/ARKit_Badge_IconAndText.svg" />
       <p style = "text-align:center">AR badge</p>
     </div></td>
-<td style="width:33%;border-style: none;"> <div>
+<td style="width:45%;border-style: none;"> <div>
       <img src="https://developer.apple.com/ios/human-interface-guidelines/images/ARKit_Badge_Icon.svg" />
       <p style = "text-align:center">Glyph-only AR badge</p>
     </div></td>

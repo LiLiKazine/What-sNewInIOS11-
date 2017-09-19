@@ -34,15 +34,15 @@ Apps can use Apple's augmented reality (AR) technology, ARKit, to deliver immers
 ### 放置虚拟物品
 <table>
 <tr style="width:100%;border-style: none;margin: 1px;padding: 1px">
-<td style="width:33%;border-style: none;"><div>
+<td style="width:30%;border-style: none;"><div>
       <img src="https://developer.apple.com/ios/human-interface-guidelines/images/ARKit_Target_1.svg" />
       <p style = "text-align:center">Surface detection indicator</p>
     </div></td>
-<td style="width:33%;border-style: none;"> <div>
+<td style="width:30%;border-style: none;"> <div>
       <img src="https://developer.apple.com/ios/human-interface-guidelines/images/ARKit_Target_2.svg" />
       <p style = "text-align:center">Object placement indicator</p>
     </div></td>
-<td style="width:33%;border-style: none;"><div>
+<td style="width:30%;border-style: none;"><div>
       <img src="https://developer.apple.com/ios/human-interface-guidelines/images/ARKit_Target_3.svg" />
       <p style = "text-align:center">App-specific indicator</p>
     </div></td>
@@ -54,7 +54,7 @@ Apps can use Apple's augmented reality (AR) technology, ARKit, to deliver immers
 + **避免将物品和检测到的平面边缘进行精确的对齐**  In AR, surface boundaries are approximations that may change as the user's surroundings are further analyzed.
 
 ### 用户与虚拟物品交互
-<div class="ARKit" style="align-self: center;">
+<div class="ARKit">
     <img src="https://developer.apple.com/ios/human-interface-guidelines/images/ARKit_User_Interaction_Right.svg" width = "40%"/>
     <img src="https://developer.apple.com/ios/human-interface-guidelines/images/ARKit_User_Interaction_Wrong.svg" width = "40%"/>
 </div>
@@ -113,7 +113,6 @@ Apps can display an AR glyph in controls that launch ARKit-based experiences. Yo
 包含多种类产品的应用可以使用徽章来表明能够使用AR观看的详细的项目。For example, a department store app might allow people to preview the appearance of select furniture products in their home before making a purchase.
 ![](https://developer.apple.com/ios/human-interface-guidelines/images/ARKit_Badging.svg)
 + **不要滥用 AR 徽章** You can download AR badges in [Resources](https://developer.apple.com/design/resources/#ios-apps). These images, which are available in collapsed and expanded forms, should be used strictly for the purpose of identifying products or other objects that can be viewed in AR using ARKit. Never alter the badges, change their color, use them for other purposes, or use them in conjunction with AR experiences not created using ARKit.
-
 <table>
 <tr style="width:100%;border-style: none;margin: 1px;padding: 1px">
 <td style="width:45%;border-style: none;"><div>

@@ -1,5 +1,4 @@
-
-## 用户界面指引
+# 用户界面指引
 ### 超视网膜屏
 + 垂直显示时，iPhone X 的宽度与 4.7 寸的 iPhone 6，iPhone7，iPhone 8 一样。但是长度要多 145pt，因此在垂直空间上多出了大概 20% 的空间。
 
@@ -43,7 +42,7 @@
     <img src="https://developer.apple.com/ios/human-interface-guidelines/images/OV_47_Cropped.svg" width = "30%" alt="Cropping on iPhone X"/>
     <img src="https://developer.apple.com/ios/human-interface-guidelines/images/OV_47_LetterBox.svg" width = "30%" alt="Letterboxing on iPhone X"/>
 </div>
-   
+
 <div class="OV_iPhoneX">
     <img src="https://developer.apple.com/ios/human-interface-guidelines/images/OV_iPhoneX_Display.svg" width = "30%" alt = "Full-screen iPhone X image"/>
     <img src="https://developer.apple.com/ios/human-interface-guidelines/images/OV_iPhoneX_Cropped.svg" width = "30%" alt = "Cropping on a 4.7 device"/>

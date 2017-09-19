@@ -69,7 +69,7 @@
 
 ### 其它的设计考量
 + iPhone X 支持 Face ID 验证。如果应用需要与系统验证功能交互，不要使用 Touch ID。同理，在其它机型上不要使用 Face ID。见[验证](https://developer.apple.com/ios/human-interface-guidelines/user-interaction/authentication/)。
-+ 不要重写系统提供的键盘特性。在 iPhone X 上，Emoji/Globe 按键自动出现在键盘上，即使使自定义键盘，应用无法影响这些按钮。见[自定义键盘](https://developer.apple.com/ios/human-interface-guidelines/extensions/custom-keyboards/)
++ 不要重写系统提供的键盘特性。在 iPhone X 上，Emoji/Globe 按键自动出现在键盘上，即使使自定义键盘，应用无法影响这些按钮。见[自定义键盘](https://developer.apple.com/ios/human-interface-guidelines/extensions/custom-keyboards/)。
 
 ### 资源
-+ 下载 Photoshop 和Sketch 使用的 iPhone X UI 设计模板，在 [资源](https://developer.apple.com/design/resources/#ios-apps)
++ 下载 Photoshop 和Sketch 使用的 iPhone X UI 设计模板，在 [资源](https://developer.apple.com/design/resources/#ios-apps)。
